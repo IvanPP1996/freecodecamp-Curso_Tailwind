@@ -9,4 +9,15 @@
     /* Agregando medidas personalizadas*/
     --width-medida-1: 170px;
     --height-medida-2: 170px;
+    /* Agregando medidas personalizadas e media query*/
+    --breakpoint-design-tablet: 56.25rem;
+    
+}
+
+/* Agregando una clase propia con clases de tailwind*/
+.card {
+    @apply bg-red-500 w-40 h-40 grid place-content-center rounded-lg text-white font-bold border-2 border-red-600 text-4xl
+}
+.card-grid {
+    @apply bg-red-500 grid place-content-center rounded-lg text-white font-bold border-2 border-red-600 text-4l
 }
