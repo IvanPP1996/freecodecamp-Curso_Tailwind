@@ -1,5 +1,8 @@
 @import "tailwindcss";
 
+/* Agregando modo oscuro para seleccionar por botón en el HTML despues */
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
     /* Agregando mis colores personalizados*/
     --color-mi-naranja: #ff6b35;
@@ -19,5 +22,5 @@
     @apply bg-red-500 w-40 h-40 grid place-content-center rounded-lg text-white font-bold border-2 border-red-600 text-4xl
 }
 .card-grid {
-    @apply bg-red-500 grid place-content-center rounded-lg text-white font-bold border-2 border-red-600 text-4l
+    @apply bg-red-500 grid place-content-center rounded-lg text-white font-bold border-2 border-red-600 text-4xl
 }
